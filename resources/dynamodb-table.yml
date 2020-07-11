@@ -1,0 +1,14 @@
+Resources:
+  SkuTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: ${self:custom.TABLE_NAME}
+      AttributeDefinitions:
+        - AttributeName: sku
+          AttributeType: S
+      KeySchema:
+        - AttributeName: sku
+          KeyType: HASH
+      ProvisionedThroughput:
+        ReadCapacityUnits: 1
+        WriteCapacityUnits: 1

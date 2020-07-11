@@ -1,0 +1,8 @@
+{
+  "body": "{\"sku\":\"ipd\",\"name\":\"Super iPad\",\"price\":\"549.99\",\"img\":\"./images/image1.jpg\"}",
+  "requestContext": {
+    "identity": {
+      "cognitoIdentityId": "USER-SUB-1234"
+    }
+  }
+}

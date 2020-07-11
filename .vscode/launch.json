@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Serverless",
+      "args": [
+        "--inspect-brk",
+        "/Users/rahulgolash/.nvm/versions/node/v14.5.0/bin/serverless",
+        "offline",
+        "-s",
+        "dev"
+      ],
+      // "env": {
+      //   "SLS_DEBUG": "*"
+      // },
+      "port": 9229
+    }
+  ]
+}
