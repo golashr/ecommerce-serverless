@@ -43,6 +43,6 @@
   "dependencies": {
     "uuid": "^7.0.3",
     "winston": "^3.3.3",
-    "serverless-offline": "^6.4.0"
+    "serverless-offline": "^12.0.4"
   }
 }
