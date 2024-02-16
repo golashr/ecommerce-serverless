@@ -24,7 +24,7 @@
     "@babel/preset-typescript": "^7.10.4",
     "@shelf/jest-dynamodb": "^1.7.0",
     "@types/aws-lambda": "^8.10.59",
-    "aws-sdk": "^2.707.0",
+    "aws-sdk": "^2.814.0",
     "babel-loader": "^8.1.0",
     "cache-loader": "^4.1.0",
     "fork-ts-checker-webpack-plugin": "^5.0.7",
